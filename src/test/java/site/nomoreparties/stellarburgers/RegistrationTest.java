@@ -23,13 +23,13 @@ public class RegistrationTest {
     private static final String URL = Url.URL;
 
     private WebDriver driver;
-    String name;
-    String email;
-    String password;
-    User user;
-    String token;
-    UserAPI userAPI = new UserAPI();
-    Utils utils = new Utils();
+    private String name;
+    private String email;
+    private String password;
+    protected User user;
+    protected String token;
+    protected UserAPI userAPI = new UserAPI();
+    protected Utils utils = new Utils();
 
     @Before
     public void setUp() {

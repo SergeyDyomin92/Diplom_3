@@ -26,14 +26,14 @@ public class ConstructorTest {
     private static final String URL = Url.URL;
 
     private WebDriver driver;
-    String name;
-    String email;
-    String password;
-    User user;
-    UserAPI userAPI = new UserAPI();
-    String token;
-    Response response;
+    protected String name;
+    protected String email;
+    protected String password;
+    protected User user;
+    protected String token;
+    protected Response response;
 
+    UserAPI userAPI = new UserAPI();
     Utils utils = new Utils();
 
     @Before

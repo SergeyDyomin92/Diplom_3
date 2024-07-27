@@ -24,14 +24,15 @@ public class LoginTest {
     private static final String URL = Url.URL;
 
     private WebDriver driver;
+    protected String name;
+    private String email;
+    private String password;
+    protected User user;
+    private String token;
+    protected Response response;
+
     UserAPI userAPI = new UserAPI();
     Utils utils = new Utils();
-    String name;
-    String email;
-    String password;
-    User user;
-    String token;
-    Response response;
 
     @Before
     public void setUp() {

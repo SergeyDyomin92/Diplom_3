@@ -26,12 +26,13 @@ public class PersonalAccountTest {
     private static final String URL = Url.URL;
 
     private WebDriver driver;
-    String name;
-    String email;
-    String password;
-    User user;
-    String token;
-    Response response;
+    protected String name;
+    private String email;
+    private String password;
+    private User user;
+    private String token;
+    protected Response response;
+
     UserAPI userAPI = new UserAPI();
     Utils utils = new Utils();
 
